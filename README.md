@@ -1,6 +1,8 @@
 # Metrak 
 
 A beautiful, minimal weather app built with React and Tailwind CSS.
+Demo link :
+[![Live Demo](https://img.shields.io/badge/Live-Demo-purple)](https://karmet.vercel.app)
 
 ## Features
 - Real-time weather data
