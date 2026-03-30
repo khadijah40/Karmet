@@ -1,21 +1,36 @@
-<<<<<<< HEAD
-# React + Vite
+# Metrak 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beautiful, minimal weather app built with React and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Features
+- Real-time weather data
+- 5-day forecast
+- Search any city in the world
+- Fully mobile responsive
+- Lilac glassmorphism UI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- React
+- Tailwind CSS
+- Vite
+- OpenWeatherMap API
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Clone the repo
+   git clone https://github.com/YOUR_USERNAME/metrak.git
 
-## Expanding the ESLint configuration
+2. Install dependencies
+   npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Karmet
-Metrak — Real-time weather app using React, Tailwind &amp; OpenWeatherMap API.
->>>>>>> fab4a646c2c8115d4750e699518e812f0a4bab70
+3. Add your API key in App.jsx
+   const API_KEY = "your_key_here"
+
+4. Run the app
+   npm run dev
+
+## API
+Free API key from [openweathermap.org](https://openweathermap.org)
+
+## License
+MIT
